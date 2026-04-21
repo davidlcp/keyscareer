@@ -1149,7 +1149,7 @@ a {
   min-height: 15rem;
   padding: 2rem 2rem 2.25rem 2rem;
   overflow: hidden;
-  background-image: url(assets/ks-talent-community-band.jpg);
+  background-image: url(../assets/ks-talent-community-band.jpg);
   background-position: bottom 300%;
   background-size: cover;
 }

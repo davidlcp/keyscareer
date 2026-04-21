@@ -321,17 +321,6 @@ a {
   position: relative;
 }
 
- .ks-nav::before {
-    content: "";
-    position: fixed;
-    top: -4rem;
-    left: 0;
-    right: 0;
-    height: 4rem;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
-    pointer-events: none;
-  }
-
 .ks-nav-item {
   position: relative;
   display: inline-flex;

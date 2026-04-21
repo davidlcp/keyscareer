@@ -1239,6 +1239,7 @@ a {
 .footer-note a {
   color: #d0021b;
   text-decoration: none;
+  display: inline;
 }
 
 .footer-note a:hover {

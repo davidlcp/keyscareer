@@ -88,9 +88,6 @@ a {
 ======================================================= */
 
 .shadow-ks-shadow {
-  position: relative;
-  /* makes z-index effective */
-  z-index: 100;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
 }
 
@@ -322,6 +319,18 @@ a {
   display: flex;
   align-items: center;
   position: relative;
+}
+
+ .ks-nav::before {
+    content: "";
+    position: absolute;
+    top: -12px;
+    left: 0;
+    right: 0;
+    height: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+    pointer-events: none;
+  }
 }
 
 .ks-nav-item {

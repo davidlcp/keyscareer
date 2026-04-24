@@ -1299,6 +1299,11 @@ a {
   }
 }
 
+.ks-footer-copy {
+   display: inline;
+   margin-right: 1rem;
+}
+
 .ks-footer-links {
   display: flex;
   flex-wrap: wrap;

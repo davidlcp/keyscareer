@@ -1144,7 +1144,7 @@ a {
   margin-top: 2rem;
   width: 100%;
   min-height: 15rem;
-  padding: 2rem 2rem 2.25rem 2rem;
+  padding: 2rem 1.2rem 2.25rem 1.2rem;
   overflow: hidden;
   background-image: url(../assets/ks-talent-community-band.jpg);
   background-position: bottom 300%;
@@ -1235,12 +1235,12 @@ a {
 
 .footer-note a {
   color: #d0021b;
-  text-decoration: none;
+  text-decoration: underline;
   display: inline;
 }
 
 .footer-note a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .ks-footer-social {

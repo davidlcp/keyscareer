@@ -1341,10 +1341,10 @@ a {
 
 .ks-footer-link {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .ks-footer-link:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 

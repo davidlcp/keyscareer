@@ -1240,7 +1240,7 @@ a {
 }
 
 .footer-note a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .ks-footer-social {
@@ -1341,10 +1341,10 @@ a {
 
 .ks-footer-link {
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .ks-footer-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
